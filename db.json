@@ -3,16 +3,9 @@
     {
       "title": "acdsac",
       "image": "ấcc",
-      "price": 12,
+      "price": 13,
       "isShow": true,
       "id": 2
-    },
-    {
-      "title": "ừewdgwhe",
-      "image": "egdagesgae",
-      "price": null,
-      "isShow": false,
-      "id": 3
     },
     {
       "title": "ừewdgwhe",
@@ -29,12 +22,71 @@
       "id": 5
     },
     {
-      "title": "update",
-      "image": "bfcgfdreesnjdshtr trstrd ydfygf ytf yt",
-      "price": 100,
-      "isShow": true,
+      "title": "savcasv",
+      "image": "sdvsdvd",
+      "price": 12,
+      "isShow": false,
       "id": 6
+    },
+    {
+      "title": "savcasv",
+      "image": "sdvsdvd",
+      "price": 12,
+      "isShow": false,
+      "id": 7
+    },
+    {
+      "title": "savcasv",
+      "image": "sdvsdvd",
+      "price": 12,
+      "isShow": false,
+      "id": 8
+    },
+    {
+      "title": "dvsdv",
+      "image": "svddsvszd",
+      "price": 12,
+      "isShow": false,
+      "id": 9
+    },
+    {
+      "title": "acfacfae",
+      "image": "adevdeve",
+      "price": 12,
+      "isShow": false,
+      "id": 10
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "vuanhtu0204tm@gmail.com",
+      "password": "$2a$10$2p/LPEbfJTaJQ7EOvM.22.K49CZvA16zHgoh.MiZWW.Od.R3rJwxe",
+      "id": 1
+    },
+    {
+      "email": "vuanhtu0@gmail.com",
+      "password": "$2a$10$PsCWSEjGOp2BpVN37nksOOXNRup0bw9QZd7.pOaZxVux4Ad/1i4EW",
+      "id": 2
+    },
+    {
+      "email": "tuvahe161770@fpt.edu.vn",
+      "password": "$2a$10$0.OdxEuInQRyZ7WhnbeXceBH0N6e9LnJ0upZ6sMNM4TJx18LxZRku",
+      "id": 3
+    },
+    {
+      "email": "vuanhtu051002nd@gmail.com",
+      "password": "$2a$10$gokKKpUSfWwYRu5v4dRpx.NiXG7cO7WlSSxBlK46JR9C1mjCSrA5y",
+      "id": 4
+    },
+    {
+      "email": "v@gmail.com",
+      "password": "$2a$10$w9hbSWS5yv50pSwMl6cjaumgt0EfwRTaKToCM97AhiGU3sN0bTc/u",
+      "id": 5
+    },
+    {
+      "email": "vu@gmail.com",
+      "password": "$2a$10$NSuTA7uab/msUBlXCp18OuivBI95HwQ.ZE329sPNiRufjptUT/AAi",
+      "id": 6
+    }
+  ]
 }

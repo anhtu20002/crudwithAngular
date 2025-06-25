@@ -1,17 +1,19 @@
 import { Component, inject } from '@angular/core';
 import { ProductService } from '../../product.service';
 import { Product } from '../../types/Product';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, CommonModule],
   templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.css',
 })
 export class ProductListComponent {
   productService = inject(ProductService);
+  route = inject(Router)
 
   products: Product[] = [];
   ngOnInit() {
@@ -41,5 +43,12 @@ export class ProductListComponent {
     }
   }
 
+  handleLogout() {
+    localStorage.removeItem('token');
+    setTimeout(() => {
+      window.alert("logout thành công");
+    }, 1000);
+    this.route.navigate(['/login']);
+  }
 
 }

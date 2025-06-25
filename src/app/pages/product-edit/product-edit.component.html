@@ -1,15 +1,47 @@
-<form [formGroup]="addForm" (ngSubmit)="handleSubmit()">
+<form [formGroup]="addForm" (ngSubmit)="handleSubmit()" class=" mt-3 p-4 border rounded shadow-sm bg-light">
     <div class="mb-3">
-        <label for="title" class="form-label">Title</label>
-        <input type="text" class="form-control" id="title" formControlName="title" />
-        <label for="image" class="form-label">Image</label>
-        <input type="text" class="form-control" id="image" formControlName="image" />
-        <label for="price" class="form-label">Price</label>
-        <input type="number" class="form-control" id="price" formControlName="price" />
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="checkbox" formControlName="isShow">
-            <label class="form-check-label" for="checkbox">Show Product</label>
-          </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <label for="title" class="form-label">Tiêu đề</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        formControlName="title"
+        placeholder="Nhập tiêu đề sản phẩm"
+      />
     </div>
-</form>
+  
+    <div class="mb-3">
+      <label for="image" class="form-label">Hình ảnh (URL)</label>
+      <input
+        type="text"
+        class="form-control"
+        id="image"
+        formControlName="image"
+        placeholder="https://example.com/image.jpg"
+      />
+    </div>
+  
+    <div class="mb-3">
+      <label for="price" class="form-label">Giá</label>
+      <input
+        type="number"
+        class="form-control"
+        id="price"
+        formControlName="price"
+        placeholder="Nhập giá sản phẩm"
+      />
+    </div>
+  
+    <div class="form-check mb-3">
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="checkbox"
+        formControlName="isShow"
+      />
+      <label class="form-check-label" for="checkbox">Hiển thị sản phẩm</label>
+    </div>
+  
+    <button type="submit" class="btn btn-success w-100">Cập nhật sản phẩm</button>
+  </form>
+  

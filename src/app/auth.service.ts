@@ -5,7 +5,7 @@ import { inject, Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthService {
-  apiURL  = 'http://localhost:3000/users';
+  apiURL  = 'http://localhost:3000';
   http = inject(HttpClient);
 
   register(data: any) {
